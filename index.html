@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica 2 github</title>
+    <script type = "text/javascript">
+      // from textBoxes.html
+      function sayHi(){
+      var txtName = document.getElementById("txtName");
+      var txtOutput = document.getElementById("txtOutput");
+      var name = txtName.value;
+      txtOutput.value = "Hola , " + name + "!"
+      } // end sayHi
+     </script>
+  </head>
+  <body>
+    <h1>Practica 2 github</h1>
+    <h2>Álvaro Rodríguez A00822297</h2>
+    <p style="font-family:'Courier New'">Este es un parrafo con font, lo de abajo es una imagen</p>
+    <div style="background-color:lightblue">
+      <hr>
+      <h3>Hola este texto que estas leyendo se encuentra en una div</h3>
+      <p style="font-family:'Arial'">Este es un parrafo tambien esta en la misma div y con otro font</p>
+      <a href="#"></a>
+      <img src="image.jpg" alt="bassplayer" width="500" height="600">
+      <br>
+    </div>
+    <form action = "">
+       <fieldset>
+       <label>Cual es tu nombre ? : </label>
+       <input type = "text"
+         id = "txtName" />
+       <input type = "button"
+         value = "saludo"
+         onclick = "sayHi()"/>
+       <input type = "text"
+         id = "txtOutput" />
+       </fieldset>
+    </form>
+      <hr>
+  </body>
+</html>
